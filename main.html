@@ -8,6 +8,50 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method = "post">
+
+     <label for = "name">Name*</label>
+	  <input type ="text" required id = "name" placeholder = "Name" name = "name">
+
+		<br><br>
+		<label for = "email">Email*</label>
+	  <input type ="text" required id = "email" placeholder = "Email" name = "email">
+
+		<br><br>
+		<label for = "gender">Gender*</label>
+	  <input type ="radio" required id = "gender_m"  name ="gender" value = "m"><label for = "gender_m" >Male</label>
+	  <input type ="radio" required id = "gender_f"  name ="gender" value = "f"><label for = "gender_f">Female</label>
+
+		<br><br>
+		<label for = "laptop">Laptops Brands*</label>
+		<select name = "laptop" id = "laptop"  required>
+			<option value = "" selected disabled>--Please choose an option--</option>
+			<option value = "apple">Apple</option>
+			<option value = "asus">Asus</option>
+			<option value = "hp">HP</option>
+		</select>
+
+		<br><br>
+		<label for = "age">Age*</label>
+	  <input type ="text" required id = "age" placeholder = "Age" name = "age">
+
+		<br><br>
+		<label for = "dob">DOB*</label>
+	  <input type  ="date" required id = "dob" placeholder = "Email" name = "dob">
+
+
+		<br><br>
+		<label for = "password">Password*</label>
+	  <input type ="password" required id = "password" placeholder = "Password" name = "password">
+
+		<br><br>
+		<label for = "portfolio">Portfolio</label>
+	  <input type ="url"  id = "portfolio" placeholder = "Portfolio" name = "portfolio">
+		
+		<br><br>
+		<button type = "submit">Submit</button>
+		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
